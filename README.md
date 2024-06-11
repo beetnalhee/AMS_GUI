@@ -31,28 +31,28 @@ Java AWT 를 활용한 계좌 관리 시스템
       
       
 # ⌨️ 코드
-[코드보기](https://github.com/beetnalhee/AMS/tree/main/project_ams/src/com/ezen/ams/bin)
+[주요코드보기](https://github.com/beetnalhee/AMS_GUI/blob/main/AccountFrame.java)
 
 
-계좌종류를 마이너스 계좌로 선택하면, enable되어져있던 대출금액 textfield 가 활성화된다.
 
 
-#### 1. Java 코드 실행화면 
-<img src="https://github.com/beetnalhee/AMS/assets/151362604/3114df5b-da66-4bcd-9805-ff5a4179dd12" width="400" height="300"/></br>
+#### 1. AWT 실행화면 
+<img src="https://github.com/beetnalhee/AMS_GUI/assets/151362604/1b3b43c6-e556-4d0f-829d-fb218842f7e8" width="450" height="350"/></br>
 #### 2. 계좌 생성 (입출금 계좌) 
-<img src="https://github.com/beetnalhee/AMS/assets/151362604/7a0d35c8-5524-46a1-a01f-5a9f9f7d7199" width="400" height="300"/></br>
-#### 3. 계좌 생성 (마이너스 계좌) 
-<img src="https://github.com/beetnalhee/AMS/assets/151362604/3057e86a-c560-4a8a-a1dc-cf10e7020659" width="400" height="300"/></br>
-#### 4. 계좌 목록 출력
-<img src="https://github.com/beetnalhee/AMS/assets/151362604/ffe4aa50-2fd8-4ae7-ba9a-c4a73db1819a" width="400" height="300"/></br>
-#### 5. 출금 
-##### 1111-1111 계좌에서 10만원 출금하여 잔액 90만원으로 변경
-<img src="https://github.com/beetnalhee/AMS/assets/151362604/63405347-188f-4269-bb91-e742822fa9cd" width="400" height="300"/></br>
-#### 6. 검색 
-##### 2222-2222 에 해당하는 계좌 검색, 출력
-<img src="https://github.com/beetnalhee/AMS/assets/151362604/2b6f5cdb-2139-4e17-8d6e-c7b81422ee9e" width="400" height="300"/></br>
-#### 7. 계좌삭제
-##### 1111-1111 계좌 삭제 후, 목록 출력하면 1111-1111 계좌가 없어진 것을 확인 할 수 있음 
-<img src="https://github.com/beetnalhee/AMS/assets/151362604/80d5c8dd-5f20-4624-8058-67850e32e298" width="400" height="300"/></br>
+<img src="https://github.com/beetnalhee/AMS_GUI/assets/151362604/f33a7839-fd1e-4a4a-ae18-1e2d08d690de" width="450" height="300"/></br>
+#### 3. 정렬(잔액/예금주/계좌번호별)
+<img src="https://github.com/beetnalhee/AMS_GUI/assets/151362604/5e458b81-2dfd-4cd8-a11a-8c4245a0293e" width="450" height="200"/></br>
+<img src="https://github.com/beetnalhee/AMS_GUI/assets/151362604/9ee35084-f4eb-44dc-b35a-b93369bd3ac9" width="450" height="200"/></br>
+<img src="https://github.com/beetnalhee/AMS_GUI/assets/151362604/22d2b6c5-7769-437e-8790-2a4ffe8b3220" width="450" height="200"/></br>
+#### 4. 전체 계좌 목록 출력
+<img src="https://github.com/beetnalhee/AMS_GUI/assets/151362604/5c3ad6b2-d44e-4174-b618-96dba073dd15" width="450" height="350"/></br>
+#### 5. 계좌 유효성 
+##### 계좌번호, 비밀번호, 입금 및 대출금액은 숫자로 표기
+##### 그외는 텍스트로 표기
+<img src="https://github.com/beetnalhee/AMS_GUI/assets/151362604/914dce98-db06-45dd-9425-997fb4b5fb45" width="450" height="300"/></br>
+#### 6. 
+##### 계좌종류를 마이너스 계좌로 선택하면, enable되어져있던 대출금액 textfield 가 활성화된다.
+<img src="https://github.com/beetnalhee/AMS_GUI/assets/151362604/914dce98-db06-45dd-9425-997fb4b5fb45" width="400" height="300"/></br>
+<img src="https://github.com/beetnalhee/AMS_GUI/assets/151362604/cae2d830-a94d-4d50-b0c7-5be9b3c8e4f4" width="400" height="300"/></br>
 
 
